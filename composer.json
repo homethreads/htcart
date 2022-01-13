@@ -1,6 +1,9 @@
 {
   "name": "homethreads/htcart",
   "description": "Homethreads Shopping Cart.",
+  "require": {
+    "php": ">=7.0.0",
+  },
   "authors": [
     {
       "name": "Edwin Ricaurte",
