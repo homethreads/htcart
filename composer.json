@@ -1,0 +1,23 @@
+{
+  "name": "homethreads/htcart",
+  "description": "Homethreads Shopping Cart.",
+  "authors": [
+    {
+      "name": "Edwin Ricaurte",
+      "email": "edwin@homethreads.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Homethreads\\HTCart\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Homethreads\\HTCart\\HTCartServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
